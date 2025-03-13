@@ -13,6 +13,9 @@
 		183181132D7778DE00C749C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183181122D7778DE00C749C5 /* Assets.xcassets */; };
 		183181162D7778DE00C749C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183181142D7778DE00C749C5 /* LaunchScreen.storyboard */; };
 		1831811E2D77845D00C749C5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831811D2D77845D00C749C5 /* SignUpViewController.swift */; };
+		18AB0BEE2D8368F30045FC67 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB0BED2D8368F30045FC67 /* TextField.swift */; };
+		18AB0BF02D836A0B0045FC67 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB0BEF2D836A0B0045FC67 /* View.swift */; };
+		18B5FE552D7A1FA900CA2D5C /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B5FE542D7A1FA900CA2D5C /* Label.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		183181152D7778DE00C749C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		183181172D7778DE00C749C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1831811D2D77845D00C749C5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		18AB0BED2D8368F30045FC67 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		18AB0BEF2D836A0B0045FC67 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		18B5FE542D7A1FA900CA2D5C /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		183181082D7778DC00C749C5 /* Messaging App */ = {
 			isa = PBXGroup;
 			children = (
+				18B5FE532D7A1F8C00CA2D5C /* UIComponents */,
 				183181092D7778DC00C749C5 /* AppDelegate.swift */,
 				1831810B2D7778DC00C749C5 /* SceneDelegate.swift */,
 				1831811D2D77845D00C749C5 /* SignUpViewController.swift */,
@@ -65,6 +72,16 @@
 				183181172D7778DE00C749C5 /* Info.plist */,
 			);
 			path = "Messaging App";
+			sourceTree = "<group>";
+		};
+		18B5FE532D7A1F8C00CA2D5C /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				18B5FE542D7A1FA900CA2D5C /* Label.swift */,
+				18AB0BED2D8368F30045FC67 /* TextField.swift */,
+				18AB0BEF2D836A0B0045FC67 /* View.swift */,
+			);
+			path = UIComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1831811E2D77845D00C749C5 /* SignUpViewController.swift in Sources */,
+				18B5FE552D7A1FA900CA2D5C /* Label.swift in Sources */,
+				18AB0BF02D836A0B0045FC67 /* View.swift in Sources */,
 				1831810A2D7778DC00C749C5 /* AppDelegate.swift in Sources */,
+				18AB0BEE2D8368F30045FC67 /* TextField.swift in Sources */,
 				1831810C2D7778DC00C749C5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
